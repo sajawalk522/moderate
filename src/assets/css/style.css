@@ -107,7 +107,7 @@
         display: none;
       }
      .responsive-list{
-       width: 325px;
+       width: 305px;
        border: 1px solid #ececec;
        padding: 20px;
        display: none;
@@ -243,6 +243,14 @@
           }
           .btn-webcast button{
             margin: 10px 20px;
+          }
+          .react-tabs__tab-list{
+            display: flex;
+            flex-flow: wrap;
+          }
+          .cards h5{
+            font-size: 18px!important;
+            text-align: center;
           }
       }
       @media (max-width: 991px) and (min-width: 768px) {
@@ -774,7 +782,8 @@
       }
       .cards h5{
         color: #98CE00;
-        font-size: 40px;
+        font-size: 26px;
+        text-align: center;
       }
       .cards p{
         color: #000;
